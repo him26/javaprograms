@@ -38,14 +38,14 @@ public class Utility
                         }
                       	if(A[mid].compareTo(x)<0) 
                         {
-                      		System.out.println(A[mid].compareTo(x));
+                      	//	System.out.println(A[mid].compareTo(x));
 
                       		return binarysearch(A, x,mid+1, high);
 
                         }
                       if(A[mid].compareTo(x)>0) 
                         {
-                    	  System.out.println(A[mid].compareTo(x));
+                    	  //System.out.println(A[mid].compareTo(x));
                     	  return binarysearch(A, x, low, mid-1);
                         }
                 }
